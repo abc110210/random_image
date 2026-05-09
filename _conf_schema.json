@@ -1,0 +1,32 @@
+{
+    "image_folder": {
+        "type": "string",
+        "description": "表情包路径",
+        "hint": "默认在 images 文件夹在插件目录下，也可填写绝对路径",
+        "default": "images"
+    },
+    "min_interval": {
+        "type": "int",
+        "description": "最小发送间隔（秒）",
+        "hint": "默认 18000 秒（5小时）",
+        "default": 18000
+    },
+    "max_interval": {
+        "type": "int",
+        "description": "最大发送间隔（秒）",
+        "hint": "默认 36000 秒（10小时）",
+        "default": 36000
+    },
+    "target_group": {
+        "type": "string",
+        "description": "目标群号",
+        "hint": "必填项，图片将发送到该群聊",
+        "default": ""
+    },
+    "verbose_logging": {
+        "type": "bool",
+        "description": "启用详细日志",
+        "hint": "开启后会在日志中显示每次发送的图片文件名",
+        "default": false
+    }
+}

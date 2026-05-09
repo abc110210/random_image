@@ -1,0 +1,7 @@
+{
+    "image_folder": "images",
+    "min_interval": 18000,
+    "max_interval": 36000,
+    "target_group": "943446220",
+    "verbose_logging": false
+}

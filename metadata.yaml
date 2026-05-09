@@ -1,0 +1,7 @@
+name: astrbot_plugin_random_image
+desc: 在随机时间间隔内向群聊随机发送图片
+help: 在 images 文件夹中放入图片，配置目标群号后即可自动发送。
+version: v1.1.0
+author: XingYe
+repo: https://github.com/yourname/astrbot_plugin_random_image
+astrbot_version: ">=4.5.2"
